@@ -2,7 +2,7 @@ import numpy as np
 import torch
 from torch import nn
 import torch.nn.functional as F
-from models.GloCOM.ECR import ECR
+from ECR import ECR
 
 class GloCOM(nn.Module):
     '''
